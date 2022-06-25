@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSB Library</title>
+    <link rel="shortcut icon" href="./assets/icons/ico.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/assets/icons/icons_tuch.png">
+    <meta name="apple-mobile-web-app-status-bar" content="blue">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="blue">
+</head>
+<body>
+    <img src="./assets/icons/psblogo.jpeg" alt="logo">
+    <h2>PSB Library Research Center</h2>
+    <form id="searchForm">
+        <input type="text" placeholder="Entrez le nom du livre" id="searchLivre">
+        <input type="text" placeholder="Entrez le nom de l'auteur" id="searchAuteur">
+        <input type="submit" value="Rechercher par livre" id="submitLivre">
+        <input type="submit" value="Rechercher par auteur" id="submitAuteur">
+    </form>
+    
+    <div class="result-container">
+        <ul id="result"></ul>
+    </div>
+    <script src="codejs/app.js"></script>
+    <script src="codejs/index.js"></script>
+
+    <p>Les données affichées sur cette application sont issues de https://developer.nytimes.com/docs/books-product/1/overview</p>
+</body>
+</html>

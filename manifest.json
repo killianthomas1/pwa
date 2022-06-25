@@ -1,0 +1,37 @@
+{
+    "name": "PSB Library Research Center",
+    "short_name": "PSBLIB",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "blue",
+    "theme_color": "blue",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/assets/icons/ico.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/assets/icons/psblogo.jpeg",
+        "type": "image/jpeg",
+        "sizes": "280x131"
+      },
+      {
+        "src": "/assets/icons/logobleupsb.jpeg",
+        "type": "image/jpeg",
+        "sizes": "400x400",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/New-York-Times-logo.png",
+        "type": "image/png",
+        "sizes": "3840x2160"
+      }, 
+      {
+        "src": "/assets/icons/book512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+}
